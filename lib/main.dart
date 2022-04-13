@@ -5,12 +5,14 @@ import 'home.dart';
 void main() {
   runApp(const Fooderlich());
 }
+
 class Fooderlich extends StatelessWidget {
-  const Fooderlich({Key? key}) : super(key: key);
-  // This widget is the root of your application.
+  const Fooderlich ({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     final theme = FooderlichTheme.dark();
+
     return MaterialApp(
       title: 'Fooderlich',
       theme: theme,
